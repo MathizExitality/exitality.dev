@@ -28,10 +28,10 @@
     <div class="proceed-button" onclick="removeOverlay(); playMusic()">proceed</div>
   </div>
   <div class="container">
-    <a href="https://exitality.dev/" target="_blank" style="text-decoration: none; color: #6f0000;">
+    <a href="https://exitality.dev/" target="_blank" style="text-decoration: none; color: #0000FF;">
       <h1>exitality.dev</h1>
     </a>
-	<a href="https://exitality.dev/" target="_blank" style="text-decoration: none; color: #6f0000;">
+	<a href="https://exitality.dev/" target="_blank" style="text-decoration: none; color: #0000FF;">
        <h><center>Coming Soon.</center></h>
     </a>
   </div>
@@ -54,7 +54,7 @@
       const formattedTime = now.toLocaleTimeString('en-US', options);
 	  
       document.getElementById('clock').textContent = formattedTime;
-	  document.getElementById('snowflake').style.color = "#6f0000";
+	  document.getElementById('snowflake').style.color = "#0000FF";
     }
 
     setInterval(updateClock, 100);
@@ -65,7 +65,7 @@
         const bloodSpark = document.createElement('div');
         bloodSpark.classList.add('blood-spark');
         bloodSpark.style.left = `${Math.random() * window.innerWidth}px`;
-		bloodSpark.style.color = "#6f0000";
+		bloodSpark.style.color = "#0000FF";
         document.body.appendChild(bloodSpark);
         setTimeout(() => {
           bloodSpark.remove();
