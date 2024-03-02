@@ -6,11 +6,11 @@ window['addEventListener']('keydown', (ARG_keycode) => {
             ARG_keycode['key'] === 's')
     ) {
         ARG_keycode['preventDefault']()
-        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @fourdevils'
+        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @faultpaw'
     }
     if (ARG_keycode['ctrlKey'] && ARG_keycode['key'] === 'C') {
         ARG_keycode['preventDefault']()
-        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @fourdevils'
+        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @faultpaw'
     }
     if (
         ARG_keycode['ctrlKey'] &&
@@ -18,7 +18,7 @@ window['addEventListener']('keydown', (ARG_keycode) => {
             ARG_keycode['key'] === 'e')
     ) {
         ARG_keycode['preventDefault']()
-        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @fourdevils'
+        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @faultpaw'
     }
     if (
         ARG_keycode['ctrlKey'] &&
@@ -27,7 +27,7 @@ window['addEventListener']('keydown', (ARG_keycode) => {
             ARG_keycode['key'] === 'Ä±')
     ) {
         ARG_keycode['preventDefault']()
-        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @fourdevils'
+        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @faultpaw'
     }
     if (
         ARG_keycode['ctrlKey'] &&
@@ -35,7 +35,7 @@ window['addEventListener']('keydown', (ARG_keycode) => {
             ARG_keycode['key'] === 'k')
     ) {
         ARG_keycode['preventDefault']()
-        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @fourdevils'
+        body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @faultpaw'
     }
     if (
         ARG_keycode['ctrlKey'] &&
@@ -43,7 +43,7 @@ window['addEventListener']('keydown', (ARG_keycode) => {
             ARG_keycode['key'] === 'u')
     ) {
         ARG_keycode['preventDefault']()
-       body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @fourdevils'
+       body[0]['innerHTML'] = 'quit trying to get the source you fat fuck, @faultpaw'
     }
 })
 document['addEventListener']('contextmenu', function(ARG_event) {
