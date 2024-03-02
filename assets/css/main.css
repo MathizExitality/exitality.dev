@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    color: #6f0000;
+    color: #0000FF;
     overflow: hidden;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -44,7 +44,7 @@ h1 {
 }
 h1 a {
     text-decoration: none;
-    color: #6f0000;
+    color: #0000FF;
     display: inline-block;
     border-bottom: none;
 }
