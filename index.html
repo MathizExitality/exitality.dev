@@ -3,7 +3,7 @@
 <head>
   <meta content="exitality.dev" property="og:title"/>
   <meta content="by @faultpaw" property="og:description" />
-  <meta content="https://cdn.discordapp.com/attachments/1136761656534384852/1137581499076587612/exitality_logo.png" property="og:image" />    
+  <meta content="https://cdn.discordapp.com/attachments/1136761656534384852/1137581499076587612/exitality_logo.png?ex=65ed22d4&is=65daadd4&hm=4817dc4b99f2209a7379679b3ee9290d8a62461de93232c98d5a8d82d1919be1&" property="og:image" />    
   <meta content="#0000FF" data-react-helmet="true" name="theme-color" />
   <link rel="icon" type="image/x-icon" href="assets/misc/exitality.png">
   <title>exitality.dev</title>
@@ -54,7 +54,7 @@
       const formattedTime = now.toLocaleTimeString('en-US', options);
 	  
       document.getElementById('clock').textContent = formattedTime;
-	  document.getElementById('snowflake').style.color = "#0000FF";
+	  document.getElementById('snowflake').style.color = " #0000FF";
     }
 
     setInterval(updateClock, 100);
@@ -65,7 +65,7 @@
         const bloodSpark = document.createElement('div');
         bloodSpark.classList.add('blood-spark');
         bloodSpark.style.left = `${Math.random() * window.innerWidth}px`;
-		bloodSpark.style.color = "#0000FF";
+		bloodSpark.style.color = " #0000FF";
         document.body.appendChild(bloodSpark);
         setTimeout(() => {
           bloodSpark.remove();
